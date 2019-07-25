@@ -1,0 +1,93 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: #ffd1dc;
+}
+h1{
+text-align: center;
+  font-size: 70px;
+  font-family: 'Cedarville Cursive', cursive;
+}
+.camper1{
+width: 200px;
+object-fit:cover;
+padding: 10px;
+}
+.camper2{
+  width: 200px;
+  object-fit:cover;
+  padding: 10px;
+}
+.camper3{
+  width: 200px;
+  object-fit:cover;
+  padding: 10px;
+}
+.giffy1{
+    position: fixed;
+    bottom: 0;
+    z-index: 10;
+    animation: drive 40s infinite;
+  }
+  @keyframes drive {
+    0% {
+      left: -25%;
+    }
+    100% {
+      left: 200%;
+    }
+    /* Finish changes by here */
+    20% {
+      transform: translate(200px, 0);
+    }
+  }
+.camper4{
+  width: 200px;
+  object-fit:cover;
+  padding:10px;
+}
+.camper5{
+  width: 200px;
+  object-fit:cover;
+  padding: 10px;
+}
+.camper6{
+  width: 200px;
+  object-fit:cover;
+  padding: 10px;
+}
+.camper7{
+  width: 200px;
+  object-fit:cover;
+  padding: 10px;
+}
+.camper8{
+  width: 200px;
+  object-fit:cover;
+  padding: 10px;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+  object-fit:cover;
+  padding: 10px;
+}
+.happycampers{
+  display: flex;
+  justify-content: space-around;
+}
+.campclarita{
+  display: flex;
+  justify-content: space-around;
+}
+.happycamping{
+  display: flex;
+  justify-content: space-around;
+}
+.joytocamping{
+  display:flex;
+  justify-content: space-around;}
